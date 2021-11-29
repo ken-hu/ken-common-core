@@ -1,8 +1,55 @@
-# Compiled class file
+#########################################
+## Author		:	_KEN.HU
+## Create Date	:	2018-10-29 09:30:00
+## Version		:	0.0.1
+#########################################
+##
+# gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+
+
+# Eclipse project file
+# File - prefix with .
 *.class
 
 # Log file
 *.log
+*.log*
+
 
 # BlueJ files
 *.ctxt
@@ -19,5 +66,10 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Folder
+target
+logs\
+
+# Util
+
+
